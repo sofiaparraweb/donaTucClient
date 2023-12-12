@@ -7,6 +7,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 // import { store, persistor } from '../src/Redux/store';
 // import { PersistGate } from 'redux-persist/integration/react';
 import App from './App';
+import "./App.css"
 
 ReactDOM.render(
   <ChakraProvider>
