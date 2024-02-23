@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lato:wght@100;400&family=Lexend+Peta:wght@300&display=swap');
+
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    width: 100%;
+    background-color: #6390d4;
+    color: #ffffff;
+    z-index: 1000;
+    font-family: "Comfortaa", sans-serif ;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 24px;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #0056b3;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }

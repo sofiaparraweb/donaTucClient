@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import { ChakraProvider } from '@chakra-ui/react';
 // import { Auth0Provider } from '@auth0/auth0-react';
 // import { Provider } from 'react-redux';
 // import { store, persistor } from '../src/Redux/store';
 // import { PersistGate } from 'redux-persist/integration/react';
 import App from './App';
 import "./App.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <ChakraProvider>
     <React.StrictMode>
       {/* <Provider store={store}> */}
         <BrowserRouter>
@@ -28,7 +27,6 @@ ReactDOM.render(
           {/* </PersistGate> */}
         </BrowserRouter>
       {/* </Provider> */}
-    </React.StrictMode>
-  </ChakraProvider>,
+    </React.StrictMode>,
   document.getElementById('root')
 );
